@@ -1,4 +1,3 @@
-// Wait until the DOM is fully loaded
 document.addEventListener('DOMContentLoaded', function () {
     // Select DOM elements
     const addButton = document.getElementById('add-task');
@@ -47,7 +46,4 @@ document.addEventListener('DOMContentLoaded', function () {
             addTask();
         }
     });
-
-    // Invoke addTask on DOMContentLoaded (initial setup call)
-    addTask();
 });
